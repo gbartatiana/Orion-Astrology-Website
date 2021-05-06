@@ -1,0 +1,335 @@
+
+body
+{
+    width: 1000px;
+    margin: auto;-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    font-family: Tahoma;
+
+}
+body a:link
+{
+    text-decoration: none;
+}
+body a:visited
+{
+    color: teal;
+}
+
+#Main
+{
+
+}
+header
+{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    border: purple 3px solid;
+    background-image: url("background/tuile7.gif");
+    width: 1000px; 
+}
+#Logo
+{
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 30px;    
+    width: 20%;
+}
+#Title
+{
+    display:inline-block;
+    vertical-align: top;
+    width: 43%;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: xx-large;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px navy;
+}
+header ul
+{
+    display: inline-block;
+    color: navy;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 10px white;
+    text-align: center;
+    list-style: none;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+header form
+{
+    display: inline-block;
+    text-align: right;
+    color:white;
+    padding: 5px;
+    background-image: url("background/velour5.gif");
+    border: tomato 3px double;
+    width: 28%;
+    vertical-align: top;
+    margin-top: 10px;
+    font-family: Tahoma;
+    font-size: small;
+}
+header form legend
+{
+    color:navy;
+    text-align: center;
+}
+
+nav
+{
+    width: 220px;
+    display: inline-block;
+    border-left: solid 3px purple;
+    border-right: solid 3px purple;
+    background-color: white;
+    height: 900px;
+    overflow: auto;
+    float: left;
+    position: relative;
+}
+nav a
+{
+    text-decoration: none;
+}    
+nav figure
+{
+    margin-left: 50px;
+}
+
+nav figcaption
+{
+    font-weight: bold;
+    font-size: small;
+    color: purple;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    margin-top: -10px;
+}
+
+#Content article
+{
+    text-align: center;
+    height: 900px;
+    background-image: url("background/LtSteelBlue.gif");
+    display: inline-block;
+    vertical-align: top;
+    width: 550px;
+    color: whitesmoke;
+    position: relative;
+    overflow:auto;
+}
+article table
+{
+    border-collapse: collapse;
+    border: double 3px purple;
+    font-size: small;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    padding: 5px 8px 5px 8px;
+    text-align: center;
+}
+article p
+{
+    margin: 15px;
+    text-align: center;
+}
+article table th
+{
+    font-size: small;
+    color: navy;
+    border-bottom: solid 1px purple;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+article table td
+{
+    border: solid 1px purple;
+    border-collapse: collapse;
+    padding: 5px;
+}
+article table tr:nth-child(even)
+{
+    background-color: teal;
+}
+tr:hover 
+{
+    background-color: rgb(40, 104, 177);
+}
+#Content h1, #Content h3
+{
+    color: navy;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+article h2
+{
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    font-size: medium;
+}
+#Content em, #Content strong
+{
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+article figure 
+{
+    position: relative;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+article figure img 
+{
+   display: inline-block;
+   width: 100px;
+   padding-right: 25px;
+
+}
+article figcaption 
+{
+   color: rgb(123, 58, 74);
+   position: relative;
+   font-size: medium;
+   font-style: italic;
+   padding-right: 25px;
+
+}
+#Content article form
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: large;
+    color: navy;
+}
+#Content aside
+{
+    width: 223px;
+    vertical-align: top;
+    display: inline-block;
+    border-left: solid 3px purple;
+    border-right: solid 3px purple;
+    background-color: white;
+    height: 900px;
+    position: absolute;
+}
+#Content aside img
+{
+    width: 160px;
+    padding: 30px 1px 1px 30px;
+    
+}
+#Services
+{
+    color: purple;
+    margin-left: 10px ;  
+    margin-right: 10px;  
+    text-align: center;
+    font-size: small;
+}
+#Services h3
+{
+    color:teal;
+    text-decoration: underline;
+    text-align: center;
+    font-size: medium;
+}
+footer
+{
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    border: purple 3px solid;
+    background-image: url("background/tuile7.gif");
+    width: 1000px; 
+    position: absolute;
+}
+#Images img
+{
+    height: 70px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#Images
+{
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: dotted 3px teal;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius: 5px;
+    -moz-box-shadow:10px 10px 25px grey;
+    -webkit-box-shadow:10px 10px 25px grey;
+    box-shadow: 10px 10px 25px grey; 
+    background-color: white;
+}
+footer h3
+{
+    font-size: large;
+    text-align: center;
+    color: navy;
+}
+
+#Contact
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    margin-top: 10px;
+}
+#Contact address
+{
+    width: 40%;
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    background-color: lightcyan;
+    float: right;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+#Contact li
+{
+    list-style: none;
+    font-size: medium;
+    color: navy;
+    
+}
+#Links
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    border-left: solid 3px purple;
+    margin-top: 10px;
+}
+#Links li
+{
+    font-size: medium;
+    list-style-type: square;
+}
+#Logofooter
+{
+    display: inline-block;
+    width: 100px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+
+
